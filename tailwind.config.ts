@@ -70,8 +70,13 @@ export default {
 				naamin: {
 					cream: '#FEF7ED',
 					gold: '#D4AF37',
+					bronze: '#CD7F32',
 					purple: '#8B5CF6',
 					lavender: '#E0D4F7',
+					stone: '#8B7355',
+					parchment: '#F4F1E8',
+					amber: '#F59E0B',
+					sage: '#9CA3AF',
 				}
 			},
 			borderRadius: {
@@ -113,17 +118,28 @@ export default {
 					'50%': {
 						boxShadow: '0 0 30px rgba(212, 175, 55, 0.6)'
 					}
+				},
+				'ancient-pulse': {
+					'0%, 100%': {
+						boxShadow: '0 0 15px rgba(205, 127, 50, 0.4), inset 0 0 15px rgba(212, 175, 55, 0.2)'
+					},
+					'50%': {
+						boxShadow: '0 0 25px rgba(205, 127, 50, 0.6), inset 0 0 25px rgba(212, 175, 55, 0.4)'
+					}
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
 				'accordion-up': 'accordion-up 0.2s ease-out',
 				'fade-in': 'fade-in 0.6s ease-out',
-				'glow': 'glow 2s ease-in-out infinite'
+				'glow': 'glow 2s ease-in-out infinite',
+				'ancient-pulse': 'ancient-pulse 3s ease-in-out infinite'
 			},
 			backgroundImage: {
 				'naamin-gradient': 'linear-gradient(135deg, #FEF7ED 0%, #E0D4F7 50%, #F3E8FF 100%)',
 				'hero-gradient': 'linear-gradient(135deg, #FEF7ED 0%, #F3E8FF 40%, #E0D4F7 100%)',
+				'ancient-gradient': 'linear-gradient(135deg, #F4F1E8 0%, #FEF7ED 30%, #E0D4F7 70%, #F3E8FF 100%)',
+				'dark-ancient': 'linear-gradient(135deg, #2D2B28 0%, #3A2F2A 30%, #4A3B47 70%, #3D2B3A 100%)',
 			}
 		}
 	},
