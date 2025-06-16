@@ -25,12 +25,12 @@ const Navigation = () => {
   };
 
   return (
-    <nav className="fixed top-0 w-full bg-card/90 backdrop-blur-md z-50 border-b border-naamin-bronze/30 shadow-lg">
+    <nav className="fixed top-0 w-full bg-card/90 backdrop-blur-md z-50 border-b border-naamin-gold/30 shadow-lg">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <h1 className="text-2xl font-merriweather font-bold bg-gradient-to-r from-naamin-bronze to-naamin-gold bg-clip-text text-transparent">
+            <h1 className="text-2xl font-merriweather font-bold bg-gradient-to-r from-naamin-gold to-naamin-purple bg-clip-text text-transparent">
               ⚱️ Naamin
             </h1>
           </div>
@@ -75,7 +75,7 @@ const Navigation = () => {
                 className="p-2 rounded-full bg-naamin-gold/20 hover:bg-naamin-gold/30 transition-colors duration-300"
               >
                 {theme === 'light' ? (
-                  <Moon className="h-5 w-5 text-naamin-bronze" />
+                  <Moon className="h-5 w-5 text-naamin-purple" />
                 ) : (
                   <Sun className="h-5 w-5 text-naamin-gold" />
                 )}
@@ -90,7 +90,7 @@ const Navigation = () => {
               className="p-2 rounded-full bg-naamin-gold/20 hover:bg-naamin-gold/30 transition-colors duration-300"
             >
               {theme === 'light' ? (
-                <Moon className="h-5 w-5 text-naamin-bronze" />
+                <Moon className="h-5 w-5 text-naamin-purple" />
               ) : (
                 <Sun className="h-5 w-5 text-naamin-gold" />
               )}
@@ -107,7 +107,7 @@ const Navigation = () => {
         {/* Mobile Menu */}
         {isOpen && (
           <div className="md:hidden">
-            <div className="px-2 pt-2 pb-3 space-y-1 bg-card/95 backdrop-blur-sm rounded-lg mt-2 border border-naamin-bronze/30">
+            <div className="px-2 pt-2 pb-3 space-y-1 bg-card/95 backdrop-blur-sm rounded-lg mt-2 border border-naamin-gold/30">
               <button
                 onClick={() => scrollToSection('hero')}
                 className="block w-full text-left px-3 py-2 text-foreground hover:text-naamin-gold hover:bg-naamin-gold/10 rounded-md transition-colors duration-300"

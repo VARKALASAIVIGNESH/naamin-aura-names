@@ -121,10 +121,10 @@ export default {
 				},
 				'ancient-pulse': {
 					'0%, 100%': {
-						boxShadow: '0 0 15px rgba(205, 127, 50, 0.4), inset 0 0 15px rgba(212, 175, 55, 0.2)'
+						boxShadow: '0 0 15px rgba(212, 175, 55, 0.4), inset 0 0 15px rgba(139, 92, 246, 0.2)'
 					},
 					'50%': {
-						boxShadow: '0 0 25px rgba(205, 127, 50, 0.6), inset 0 0 25px rgba(212, 175, 55, 0.4)'
+						boxShadow: '0 0 25px rgba(212, 175, 55, 0.6), inset 0 0 25px rgba(139, 92, 246, 0.4)'
 					}
 				}
 			},
