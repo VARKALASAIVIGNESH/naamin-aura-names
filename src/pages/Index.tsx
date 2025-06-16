@@ -1,5 +1,4 @@
 
-import { ThemeProvider } from '../components/ThemeProvider';
 import Navigation from '../components/Navigation';
 import HeroSection from '../components/HeroSection';
 import FeaturesSection from '../components/FeaturesSection';
@@ -10,17 +9,15 @@ import ChatbotButton from '../components/ChatbotButton';
 
 const Index = () => {
   return (
-    <ThemeProvider defaultTheme="light">
-      <div className="min-h-screen bg-ancient-gradient dark:bg-dark-ancient font-inter papyrus-texture">
-        <Navigation />
-        <HeroSection />
-        <FeaturesSection />
-        <DemoSection />
-        <NumerologySection />
-        <ContactFooter />
-        <ChatbotButton />
-      </div>
-    </ThemeProvider>
+    <div className="min-h-screen bg-naamin-gradient font-inter">
+      <Navigation />
+      <HeroSection />
+      <FeaturesSection />
+      <DemoSection />
+      <NumerologySection />
+      <ContactFooter />
+      <ChatbotButton />
+    </div>
   );
 };
 
